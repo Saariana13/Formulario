@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Formulario</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+
+    <body>
+       <h1>Formulario de Inscripción</h1> 
+       <p>Bienvenid@. Por favor ingresa todos tus datos para poder continuar con tu registro.</p>
+
+        <form class="contacto">
+            
+            <label for="name">Nombre completo</label><br>
+            <input class="contenedor" type="text" id="nombre" name="nombre"><br><br>
+            
+            <label for="c-id">Cédula</label><br>
+            <input class="contenedor" type="int" id="c-id" name="c-id"><br><br>
+
+            <label for="telf">Teléfono</label><br>
+            <input class="contenedor" type="int" id="telf" name="telf"><br><br>
+            
+            <label for="email">Correo electrónico</label><br>
+            <input class="contenedor" type="email" id="correo" name="correo"><br><br>
+
+            <label for="date">Fecha de nacimiento</label><br>
+            <input class="contenedor" type="date" id="fecha" name="fecha"><br><br>
+
+            <label for="gender">Género:</label>
+            <label for="gender">Masculino</label>
+            <input type="radio" id="genero" name="genero">
+            <label for="gender">Femenino</label>
+            <input type="radio" id="genero" name="genero"><br><br>
+            
+            <label for="mod">Elije la modalidad de inscripción:</label>
+            <select id="mod" name="mod">
+            <option value="mod1">Virtual</option>
+            <option value="mod2">Presencial</option>
+            <option value="mod3">Híbrida</option>
+            </select><br><br>
+
+            <input class="boton" type="submit" value="Enviar">
+
+        </form>
+
+    </body>
+</html>

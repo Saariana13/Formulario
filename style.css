@@ -1,0 +1,59 @@
+body{
+    background-color: #eeeeff;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to left, #FFA6A6 40%, #bb342f);
+    -webkit-background-clip: text; /* Para navegadores basados en Webkit, como Safari y Chrome */
+    background-clip: text;
+    color: transparent;
+ }
+ 
+ p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #46494c;
+    padding-top: 7px;
+    font-weight: bold;
+    font-size: 18px;
+ }
+
+form{
+    color: #46494c;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contacto{
+    display: block;
+    text-align: center;
+}
+
+.boton{
+    background-color: #f7cacd;
+    color: #46494c;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background:  #bf0603;
+    color: #eeeeff;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+		0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
+
+.contenedor{
+    padding: .5rem;
+    resize: none;
+    border-radius: 7px;
+    border: 2px solid #f0f0f0;
+    width: 20rem;
+}
